@@ -12,7 +12,7 @@
     <h3>Hi there!
     
     <p>
-      I'm your cool new webpage for demonstrating Use of for loop . Made By Aman Sharma!
+     Demonstrating While loop . Made By Aman Sharma!
     </p></h3>
 <div id="client">
   
@@ -20,9 +20,11 @@
     
     <script>
       var text="";
-      for(var i=0;i<=10;i++)
+      var i=0
+      while(i<=10)
       {
-        text+="<p> You random Number is <strong>"+Math.trunc(Math.random()*100)+"</strong></p>";
+        text+="<p> You random Unlucky Number is <strong>"+Math.trunc(Math.random()*100)+"</strong></p>";
+        i++;
       }    
          document.getElementById("client").innerHTML=text;
    </script>
